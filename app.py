@@ -20,3 +20,10 @@ def bday():
 def greet(name):
     return 'Hello, {0}!'.format(name)
 
+
+# sum route
+@app.route(/sum/<int:a>/<int:b>')
+def sum_ints(a, b):
+    return "The sum of {0} and {1} is {2}.".format(a, b, a + b)
+
+           
