@@ -27,3 +27,13 @@ def sum_ints(a, b):
     return "The sum of {0} and {1} is {2}.".format(a, b, a + b)
 
            
+# multiply route
+@app.route(/multiply/<int:a>/<int:b>')
+def sum_ints(a, b):
+    return "The sum of {0} and {1} is {2}.".format(a, b, a * b)
+           
+           
+# subtract route
+@app.route(/subtract/<int:a>/<int:b>')
+def sum_ints(a, b):
+    return "The sum of {0} and {1} is {2}.".format(a, b, a - b)
